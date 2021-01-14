@@ -1,9 +1,7 @@
 $(document).ready(function() {
 
-
   // jumbotron current date
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
-
 
 
   // save button click
