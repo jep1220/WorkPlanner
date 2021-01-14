@@ -53,7 +53,7 @@ textarea{
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #68b862;
   color: white;
 }
 
@@ -61,8 +61,8 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color: #6dd6c5;
+  color: rgba(56, 42, 42, 0.685);
 }
 
 .saveBtn i:hover {
