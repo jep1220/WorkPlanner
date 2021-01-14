@@ -25,10 +25,13 @@ $(document).ready(function() {
    $("#4PM .description").val(localStorage.getItem("4PM"));
    $("#5PM .description").val(localStorage.getItem("5PM"));
  
+// hour updater
 
+hourUpdater();
+  var interval = setInterval(hourUpdater, 2000);
+  
   function hourUpdater() {
-    // get current number of hours
-    var currentHour = moment().hours();
+        var currentHour = moment().hours();
 
     // loop over time blocks
     $(".time-block").each(function() {
@@ -49,9 +52,6 @@ $(document).ready(function() {
     });
   }
 
-  hourUpdater();
-  var interval = setInterval(hourUpdater, 2000);
-
- 
+  
   
 });
